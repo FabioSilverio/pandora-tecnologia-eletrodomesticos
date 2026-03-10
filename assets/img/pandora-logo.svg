@@ -1,36 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 378" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 380" role="img" aria-labelledby="title desc">
   <title id="title">Pandora Tecnologia</title>
   <desc id="desc">Logo da Pandora Tecnologia em azul escuro.</desc>
   <g fill="none" fill-rule="evenodd">
-    <g transform="translate(6 2)">
+    <g transform="translate(8 2)">
       <path
-        d="M129 10 258 82v178l-70 14-59 92-58-92L0 260V82z"
+        d="M142 8 274 86v172l-50 13-82 97-82-97-50-13V86z"
         fill="#001e61"
       />
       <path
-        d="M129 10v356M0 82l129 105 129-105M71 274l58-87 59 87M129 10 71 274M129 10l59 264"
-        stroke="#08152f"
+        d="M142 8v360M10 86l132 111 132-111M60 271l82-74 82 74M142 8 60 271M142 8l82 263"
+        stroke="#07142f"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="8"
       />
     </g>
-    <g fill="#001e61" transform="translate(348 22)">
+    <g fill="#001e61" transform="translate(360 18)">
       <text
         x="0"
-        y="170"
+        y="182"
         font-family="Montserrat, Arial, sans-serif"
-        font-size="190"
+        font-size="206"
         font-weight="800"
-        letter-spacing="2"
+        letter-spacing="0"
       >
         PANDORA
       </text>
       <text
-        x="612"
-        y="292"
+        x="680"
+        y="315"
         font-family="Montserrat, Arial, sans-serif"
-        font-size="114"
+        font-size="116"
         font-weight="400"
         letter-spacing="34"
       >

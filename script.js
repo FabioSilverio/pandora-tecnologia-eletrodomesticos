@@ -1,6 +1,38 @@
 const counters = document.querySelectorAll("[data-count]");
 const revealItems = document.querySelectorAll(".reveal");
 const header = document.querySelector("[data-header]");
+const rotator = document.querySelector("[data-rotator]");
+const rotatingWords = [
+  "lojas de eletrodomésticos",
+  "lojas de ar-condicionado doméstico",
+  "lojas de áudio e vídeo",
+  "lojas de purificadores e aquecedores"
+];
+
+let rotatingIndex = 0;
+
+if (rotator) {
+  rotator.textContent = rotatingWords[0];
+
+  window.setInterval(() => {
+    rotatingIndex = (rotatingIndex + 1) % rotatingWords.length;
+
+    rotator.animate(
+      [
+        { opacity: 1, transform: "translateY(0)" },
+        { opacity: 0, transform: "translateY(18px)" },
+        { opacity: 0, transform: "translateY(-18px)" },
+        { opacity: 1, transform: "translateY(0)" }
+      ],
+      {
+        duration: 520,
+        easing: "cubic-bezier(0.22, 1, 0.36, 1)"
+      }
+    );
+
+    rotator.textContent = rotatingWords[rotatingIndex];
+  }, 2600);
+}
 
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(
