@@ -4,9 +4,9 @@ const header = document.querySelector("[data-header]");
 const rotator = document.querySelector("[data-rotator]");
 const rotatingWords = [
   "eletrodomésticos",
-  "ar condicionado",
+  "ar-condicionado",
   "áudio e vídeo",
-  "ventilação e conforto"
+  "purificadores"
 ];
 
 let rotatingIndex = 0;
@@ -18,12 +18,12 @@ if (rotator) {
     rotatingIndex = (rotatingIndex + 1) % rotatingWords.length;
     const fadeOut = rotator.animate(
       [
-        { opacity: 1, transform: "translateY(0)" },
-        { opacity: 0, transform: "translateY(10px)" }
+        { opacity: 1, filter: "blur(0px)" },
+        { opacity: 0, filter: "blur(8px)" }
       ],
       {
-        duration: 180,
-        easing: "ease-in",
+        duration: 220,
+        easing: "ease-in-out",
         fill: "forwards"
       }
     );
@@ -32,11 +32,11 @@ if (rotator) {
       rotator.textContent = rotatingWords[rotatingIndex];
       rotator.animate(
         [
-          { opacity: 0, transform: "translateY(-10px)" },
-          { opacity: 1, transform: "translateY(0)" }
+          { opacity: 0, filter: "blur(8px)" },
+          { opacity: 1, filter: "blur(0px)" }
         ],
         {
-          duration: 260,
+          duration: 360,
           easing: "cubic-bezier(0.22, 1, 0.36, 1)",
           fill: "forwards"
         }

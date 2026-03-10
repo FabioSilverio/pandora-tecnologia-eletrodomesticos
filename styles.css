@@ -63,7 +63,7 @@ a {
   z-index: 40;
   width: var(--container);
   margin: 0 auto 28px;
-  padding: 14px 18px;
+  padding: 10px 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,8 +87,9 @@ a {
 }
 
 .brand-logo {
-  width: min(100%, 500px);
-  height: auto;
+  width: auto;
+  height: 56px;
+  max-width: 100%;
 }
 
 .top-nav {
@@ -153,14 +154,15 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.78fr);
-  gap: 88px;
-  align-items: start;
+  grid-template-columns: minmax(0, 1.28fr) minmax(360px, 398px);
+  gap: 68px;
+  align-items: center;
   padding: 34px 0 18px;
 }
 
 .hero-copy {
-  padding-top: 22px;
+  max-width: 50rem;
+  padding-top: 10px;
 }
 
 .hero h1,
@@ -180,31 +182,48 @@ a {
   margin: 0;
   color: var(--ink);
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(2.2rem, 3.2vw, 3rem);
+  font-size: clamp(1.95rem, 2.9vw, 2.55rem);
   font-weight: 700;
   letter-spacing: -0.05em;
   padding-left: 0.02em;
 }
 
 .hero h1 {
-  max-width: 6.9ch;
-  min-height: 2.45em;
-  margin-top: 8px;
-  font-size: clamp(3.3rem, 4.8vw, 5rem);
-  line-height: 0.96;
+  position: relative;
+  display: grid;
+  max-width: 13.8ch;
+  min-height: 2.16em;
+  margin-top: 10px;
+  font-size: clamp(3.2rem, 4.85vw, 5.1rem);
+  line-height: 1;
   overflow: visible;
-  padding: 0 0.03em;
+  padding: 0.02em 0.08em 0.12em 0.02em;
+}
+
+.hero-rotating-title::before {
+  content: attr(data-rotator-frame);
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.hero-rotating-title::before,
+.hero-rotating-title span {
+  grid-area: 1 / 1;
 }
 
 .hero-rotating-title span {
   display: block;
-  max-width: 6.8ch;
+  max-width: none;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
   text-wrap: balance;
   background: linear-gradient(135deg, var(--ink) 0%, #22055a 72%, var(--purple) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+  will-change: opacity, filter;
 }
 
 .hero-text,
@@ -219,7 +238,7 @@ a {
 }
 
 .hero-text {
-  max-width: 38rem;
+  max-width: 41rem;
   margin: 24px 0 0;
   font-size: 1.08rem;
 }
@@ -276,17 +295,18 @@ a {
 
 .hero-media {
   display: block;
-  max-width: 452px;
+  width: 100%;
+  max-width: 398px;
   justify-self: end;
 }
 
 .hero-collage {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
-  grid-template-rows: 220px 140px 164px;
+  grid-template-rows: 168px 148px 136px;
   gap: 16px;
   min-height: 0;
-  padding: 22px;
+  padding: 18px;
   border-radius: 40px;
   background:
     radial-gradient(circle at 100% 0, rgba(36, 144, 255, 0.14), transparent 30%),
@@ -311,6 +331,11 @@ a {
 .hero-photo img {
   height: 100%;
   object-fit: cover;
+  transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hero-collage:hover .hero-photo img {
+  transform: scale(1.04);
 }
 
 .hero-photo--primary {
@@ -344,29 +369,36 @@ a {
   grid-column: 1;
   grid-row: 2;
   width: 100%;
-  padding: 18px;
+  min-height: 100%;
+  padding: 16px 15px;
+  display: grid;
+  align-content: center;
   border-radius: 24px;
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(18, 1, 47, 0.06);
   box-shadow: var(--shadow-md);
+  overflow: hidden;
 }
 
 .hero-note span {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: var(--ink-soft);
-  font-size: 0.82rem;
+  font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 0.14em;
+  line-height: 1.35;
   text-transform: uppercase;
 }
 
 .hero-note strong {
   display: block;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.18rem;
-  line-height: 1.12;
+  max-width: 12ch;
+  font-size: 1rem;
+  line-height: 1.16;
   letter-spacing: -0.05em;
+  text-wrap: balance;
 }
 
 .video-section,
@@ -534,7 +566,8 @@ a {
 .showcase-body h3,
 .result-card h3 {
   font-size: 1.85rem;
-  line-height: 1.02;
+  line-height: 1.06;
+  padding-bottom: 0.05em;
 }
 
 .highlight-card p,
@@ -563,19 +596,21 @@ a {
 .cta-box h2 {
   max-width: 12.5ch;
   font-size: clamp(2.7rem, 4.3vw, 4.15rem);
-  line-height: 0.94;
+  line-height: 1;
+  padding-bottom: 0.08em;
 }
 
 .section-ornament {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: min(190px, 18vw);
+  aspect-ratio: 1;
   justify-self: end;
 }
 
 .section-ornament__image {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
   filter: drop-shadow(0 20px 36px rgba(39, 14, 95, 0.14));
   animation: ornamentFloat 6.6s ease-in-out infinite;
 }
@@ -660,8 +695,9 @@ a {
 .quote {
   margin: 0;
   font-size: clamp(2rem, 3.2vw, 3.2rem);
-  line-height: 1.04;
+  line-height: 1.08;
   letter-spacing: -0.05em;
+  padding-bottom: 0.06em;
 }
 
 .quote-meta {
@@ -810,7 +846,7 @@ a {
   }
 
   .hero {
-    gap: 28px;
+    gap: 34px;
   }
 
   .hero-copy {
@@ -818,7 +854,7 @@ a {
   }
 
   .hero-media {
-    max-width: 760px;
+    max-width: 520px;
     margin: 0 auto;
   }
 
@@ -854,11 +890,12 @@ a {
 
   .site-header {
     gap: 14px;
-    padding: 16px;
+    padding: 14px;
   }
 
   .brand-logo {
-    width: min(100%, 280px);
+    width: auto;
+    height: 38px;
   }
 
   .top-nav {
@@ -880,13 +917,13 @@ a {
 
   .hero h1 {
     max-width: 100%;
-    min-height: 0;
-    font-size: clamp(2.7rem, 9vw, 3.8rem);
-    line-height: 0.95;
+    min-height: 1.9em;
+    font-size: clamp(2.6rem, 8.2vw, 3.5rem);
+    line-height: 1;
   }
 
   .hero-prefix {
-    font-size: clamp(1.8rem, 7vw, 2.35rem);
+    font-size: clamp(1.48rem, 5.8vw, 1.95rem);
   }
 
   .hero-rotating-title span {
@@ -934,7 +971,8 @@ a {
   }
 
   .hero-note strong {
-    font-size: 1.12rem;
+    max-width: 100%;
+    font-size: 1.08rem;
   }
 
   .video-card,
@@ -954,8 +992,7 @@ a {
   }
 
   .section-ornament {
-    width: 150px;
-    height: 150px;
+    width: 132px;
   }
 
   .showcase-card img {
