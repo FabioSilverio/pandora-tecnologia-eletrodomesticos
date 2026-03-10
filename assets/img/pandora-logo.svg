@@ -1,43 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 140" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 378" role="img" aria-labelledby="title desc">
   <title id="title">Pandora Tecnologia</title>
-  <desc id="desc">Logo da Pandora Tecnologia em azul escuro com símbolo geométrico.</desc>
-  <defs>
-    <linearGradient id="gemFill" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#1949c7" />
-      <stop offset="100%" stop-color="#0b2f8d" />
-    </linearGradient>
-  </defs>
+  <desc id="desc">Logo da Pandora Tecnologia em azul escuro.</desc>
   <g fill="none" fill-rule="evenodd">
-    <g transform="translate(6 10)">
+    <g transform="translate(6 2)">
       <path
-        d="M34 16 63 0l29 16 18 31-23 64-24 18-25-18-22-64z"
-        fill="url(#gemFill)"
-        opacity=".95"
+        d="M129 10 258 82v178l-70 14-59 92-58-92L0 260V82z"
+        fill="#001e61"
       />
       <path
-        d="M63 0v129M34 16l29 27 29-27M11 47l52 44 47-44M38 111l25-20 24 20"
-        stroke="#04153d"
+        d="M129 10v356M0 82l129 105 129-105M71 274l58-87 59 87M129 10 71 274M129 10l59 264"
+        stroke="#08152f"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-width="4"
+        stroke-width="8"
       />
     </g>
-    <g fill="#001e61" transform="translate(140 10)">
+    <g fill="#001e61" transform="translate(348 22)">
       <text
-        font-family="Space Grotesk, Arial, sans-serif"
-        font-size="82"
-        font-weight="700"
-        letter-spacing="4"
-        y="72"
+        x="0"
+        y="170"
+        font-family="Montserrat, Arial, sans-serif"
+        font-size="190"
+        font-weight="800"
+        letter-spacing="2"
       >
         PANDORA
       </text>
       <text
-        font-family="Manrope, Arial, sans-serif"
-        font-size="38"
-        font-weight="500"
-        letter-spacing="18"
-        y="120"
+        x="612"
+        y="292"
+        font-family="Montserrat, Arial, sans-serif"
+        font-size="114"
+        font-weight="400"
+        letter-spacing="34"
       >
         TECNOLOGIA
       </text>
