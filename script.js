@@ -3,10 +3,10 @@ const revealItems = document.querySelectorAll(".reveal");
 const header = document.querySelector("[data-header]");
 const rotator = document.querySelector("[data-rotator]");
 const rotatingWords = [
-  "lojas de eletrodomésticos",
-  "lojas de ar-condicionado doméstico",
-  "lojas de áudio e vídeo",
-  "lojas de purificadores e aquecedores"
+  "eletrodomésticos",
+  "ar condicionado",
+  "áudio e vídeo",
+  "ventilação e conforto"
 ];
 
 let rotatingIndex = 0;
@@ -16,22 +16,33 @@ if (rotator) {
 
   window.setInterval(() => {
     rotatingIndex = (rotatingIndex + 1) % rotatingWords.length;
-
-    rotator.animate(
+    const fadeOut = rotator.animate(
       [
         { opacity: 1, transform: "translateY(0)" },
-        { opacity: 0, transform: "translateY(18px)" },
-        { opacity: 0, transform: "translateY(-18px)" },
-        { opacity: 1, transform: "translateY(0)" }
+        { opacity: 0, transform: "translateY(10px)" }
       ],
       {
-        duration: 520,
-        easing: "cubic-bezier(0.22, 1, 0.36, 1)"
+        duration: 180,
+        easing: "ease-in",
+        fill: "forwards"
       }
     );
 
-    rotator.textContent = rotatingWords[rotatingIndex];
-  }, 2600);
+    fadeOut.onfinish = () => {
+      rotator.textContent = rotatingWords[rotatingIndex];
+      rotator.animate(
+        [
+          { opacity: 0, transform: "translateY(-10px)" },
+          { opacity: 1, transform: "translateY(0)" }
+        ],
+        {
+          duration: 260,
+          easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+          fill: "forwards"
+        }
+      );
+    };
+  }, 3200);
 }
 
 if ("IntersectionObserver" in window) {
