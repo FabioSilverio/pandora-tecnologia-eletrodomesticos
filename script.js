@@ -1,28 +1,6 @@
-const rotatingWords = ["mais agil", "mais moderno", "mais rapido", "mais seguro"];
-const rotator = document.querySelector("[data-rotator]");
 const counters = document.querySelectorAll("[data-count]");
 const revealItems = document.querySelectorAll(".reveal");
 const header = document.querySelector("[data-header]");
-
-let wordIndex = 0;
-
-if (rotator) {
-  rotator.textContent = rotatingWords[0];
-
-  window.setInterval(() => {
-    wordIndex = (wordIndex + 1) % rotatingWords.length;
-    rotator.animate(
-      [
-        { opacity: 1, transform: "translateY(0)" },
-        { opacity: 0, transform: "translateY(14px)" },
-        { opacity: 0, transform: "translateY(-14px)" },
-        { opacity: 1, transform: "translateY(0)" }
-      ],
-      { duration: 460, easing: "ease" }
-    );
-    rotator.textContent = rotatingWords[wordIndex];
-  }, 2200);
-}
 
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(
@@ -36,12 +14,15 @@ if ("IntersectionObserver" in window) {
         revealObserver.unobserve(entry.target);
       });
     },
-    { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+    {
+      threshold: 0.16,
+      rootMargin: "0px 0px -8% 0px"
+    }
   );
 
   revealItems.forEach((item) => {
     const rect = item.getBoundingClientRect();
-    if (rect.top < window.innerHeight * 0.9) {
+    if (rect.top < window.innerHeight * 0.88) {
       item.classList.add("is-visible");
       return;
     }
@@ -62,11 +43,13 @@ if ("IntersectionObserver" in window) {
 
         const target = Number(entry.target.dataset.count);
         const startedAt = performance.now();
-        const duration = 1200;
+        const duration = 1400;
 
         const animate = (time) => {
           const progress = Math.min((time - startedAt) / duration, 1);
-          entry.target.textContent = Math.floor(target * progress);
+          const eased = 1 - Math.pow(1 - progress, 3);
+
+          entry.target.textContent = Math.floor(target * eased);
 
           if (progress < 1) {
             requestAnimationFrame(animate);
@@ -81,16 +64,20 @@ if ("IntersectionObserver" in window) {
         counterObserver.unobserve(entry.target);
       });
     },
-    { threshold: 0.4 }
+    { threshold: 0.45 }
   );
 
   counters.forEach((counter) => counterObserver.observe(counter));
 }
 
-window.addEventListener("scroll", () => {
-  if (!header) {
-    return;
-  }
+window.addEventListener(
+  "scroll",
+  () => {
+    if (!header) {
+      return;
+    }
 
-  header.classList.toggle("is-scrolled", window.scrollY > 8);
-});
+    header.classList.toggle("is-scrolled", window.scrollY > 10);
+  },
+  { passive: true }
+);
