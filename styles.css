@@ -659,11 +659,21 @@ a {
 }
 
 .business-card {
+  display: grid;
+  align-content: start;
+  gap: 14px;
   padding: 24px;
   border-radius: 26px;
   background: rgba(255, 255, 255, 0.68);
   border: 1px solid rgba(18, 1, 47, 0.06);
   box-shadow: var(--shadow-md);
+}
+
+.business-card__icon-image {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 22px rgba(39, 14, 95, 0.14));
 }
 
 .business-card h3 {
@@ -676,7 +686,7 @@ a {
 }
 
 .business-card p {
-  margin: 12px 0 0;
+  margin: 0;
   color: var(--ink-soft);
   max-width: 28ch;
   line-height: 1.72;
@@ -763,6 +773,15 @@ a {
 .result-card__top {
   display: flex;
   align-items: center;
+  gap: 16px;
+}
+
+.result-card__icon-image {
+  width: 62px;
+  height: 62px;
+  flex: 0 0 auto;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 22px rgba(39, 14, 95, 0.12));
 }
 
 .proof {
@@ -799,6 +818,24 @@ a {
 .proof-score {
   display: grid;
   gap: 4px;
+}
+
+.proof-brand {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 4px 0 10px;
+}
+
+.proof-google-wordmark {
+  width: auto;
+  height: 30px;
+}
+
+.proof-google-stars {
+  width: auto;
+  height: 28px;
 }
 
 .proof-score strong {
@@ -1111,8 +1148,22 @@ a {
     align-items: flex-start;
   }
 
+  .business-card__icon-image,
+  .result-card__icon-image {
+    width: 64px;
+    height: 64px;
+  }
+
   .business-card p {
     max-width: 100%;
+  }
+
+  .proof-google-wordmark {
+    height: 28px;
+  }
+
+  .proof-google-stars {
+    height: 24px;
   }
 }
 
