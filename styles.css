@@ -580,6 +580,21 @@ a {
   justify-content: space-between;
 }
 
+.business-heading {
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 48px;
+}
+
+.business-heading h2 {
+  max-width: 18ch;
+  font-size: clamp(2.05rem, 2.9vw, 3.15rem);
+}
+
+.business-heading .section-text {
+  max-width: 46rem;
+  font-size: 1.04rem;
+}
+
 .section-heading h2,
 .cta-box h2 {
   max-width: 12.5ch;
@@ -601,6 +616,10 @@ a {
   object-fit: contain;
   filter: drop-shadow(0 20px 36px rgba(39, 14, 95, 0.14));
   animation: ornamentFloat 6.6s ease-in-out infinite;
+}
+
+.business-heading .section-ornament {
+  width: min(260px, 24vw);
 }
 
 .solution-grid {
@@ -625,18 +644,42 @@ a {
   box-shadow: var(--shadow-md);
 }
 
+.business-card__icon {
+  width: 62px;
+  height: 62px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(123, 65, 255, 0.14), rgba(36, 144, 255, 0.18));
+  color: var(--purple-deep);
+  box-shadow: inset 0 0 0 1px rgba(18, 1, 47, 0.05);
+}
+
+.business-card__icon svg {
+  width: 28px;
+  height: 28px;
+}
+
 .business-card h3 {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.55rem;
+  font-size: 1.45rem;
   line-height: 1.06;
   letter-spacing: -0.05em;
+  max-width: 12ch;
 }
 
 .business-card p {
   margin: 12px 0 0;
   color: var(--ink-soft);
-  line-height: 1.68;
+  max-width: 28ch;
+  line-height: 1.72;
+}
+
+.video-card--secondary {
+  grid-template-columns: minmax(280px, 0.74fr) minmax(0, 1.06fr);
 }
 
 .showcase-card {
@@ -924,6 +967,10 @@ a {
     justify-self: start;
   }
 
+  .business-heading {
+    gap: 22px;
+  }
+
   .highlights {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1053,6 +1100,10 @@ a {
     width: 132px;
   }
 
+  .business-heading .section-ornament {
+    width: 154px;
+  }
+
   .showcase-card img {
     height: 260px;
   }
@@ -1063,6 +1114,10 @@ a {
 
   .result-card__top {
     align-items: flex-start;
+  }
+
+  .business-card p {
+    max-width: 100%;
   }
 }
 
