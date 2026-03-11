@@ -11,6 +11,34 @@ const rotatingWords = [
 
 let rotatingIndex = 0;
 
+const startTypedMessage = (bubble) => {
+  if (!bubble || bubble.dataset.typedStarted === "true") {
+    return;
+  }
+
+  const textNode = bubble.querySelector(".message-button__text");
+  if (!textNode) {
+    return;
+  }
+
+  const finalText = textNode.dataset.fullText || textNode.textContent.trim();
+  textNode.dataset.fullText = finalText;
+  textNode.textContent = "";
+  bubble.dataset.typedStarted = "true";
+
+  let charIndex = 0;
+  const tick = () => {
+    textNode.textContent = finalText.slice(0, charIndex);
+    charIndex += 1;
+
+    if (charIndex <= finalText.length) {
+      window.setTimeout(tick, 22);
+    }
+  };
+
+  window.setTimeout(tick, 140);
+};
+
 if (rotator) {
   rotator.textContent = rotatingWords[0];
 
@@ -54,6 +82,10 @@ if ("IntersectionObserver" in window) {
         }
 
         entry.target.classList.add("is-visible");
+        if (entry.target.matches("[data-typed-message]")) {
+          startTypedMessage(entry.target);
+        }
+        entry.target.querySelectorAll("[data-typed-message]").forEach(startTypedMessage);
         revealObserver.unobserve(entry.target);
       });
     },
@@ -67,13 +99,23 @@ if ("IntersectionObserver" in window) {
     const rect = item.getBoundingClientRect();
     if (rect.top < window.innerHeight * 0.88) {
       item.classList.add("is-visible");
+      if (item.matches("[data-typed-message]")) {
+        startTypedMessage(item);
+      }
+      item.querySelectorAll("[data-typed-message]").forEach(startTypedMessage);
       return;
     }
 
     revealObserver.observe(item);
   });
 } else {
-  revealItems.forEach((item) => item.classList.add("is-visible"));
+  revealItems.forEach((item) => {
+    item.classList.add("is-visible");
+    if (item.matches("[data-typed-message]")) {
+      startTypedMessage(item);
+    }
+    item.querySelectorAll("[data-typed-message]").forEach(startTypedMessage);
+  });
 }
 
 if ("IntersectionObserver" in window) {
