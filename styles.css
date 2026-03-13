@@ -87,9 +87,19 @@ a {
 }
 
 .brand-logo {
-  width: auto;
-  height: 56px;
+  display: block;
+  width: clamp(240px, 25vw, 420px);
+  height: 64px;
   max-width: 100%;
+  background: linear-gradient(135deg, var(--purple-deep), var(--purple), var(--blue));
+  -webkit-mask-image: url("assets/img/pandora-logo-clean.png");
+  mask-image: url("assets/img/pandora-logo-clean.png");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: left center;
+  mask-position: left center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 
 .top-nav {
@@ -165,6 +175,16 @@ a {
   padding-top: 10px;
 }
 
+.hero-panel {
+  padding: 28px;
+  border-radius: 34px;
+  border: 2px solid rgba(123, 65, 255, 0.42);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.18)),
+    radial-gradient(circle at 100% 0, rgba(36, 144, 255, 0.08), transparent 28%);
+  box-shadow: 0 22px 48px rgba(67, 20, 143, 0.08);
+}
+
 .hero h1,
 .video-copy h2,
 .section-heading h2,
@@ -191,7 +211,7 @@ a {
 .hero h1 {
   position: relative;
   display: grid;
-  max-width: 13.8ch;
+  max-width: 12.8ch;
   min-height: 2.16em;
   margin-top: 10px;
   font-size: clamp(3.2rem, 4.85vw, 5.1rem);
@@ -285,6 +305,10 @@ a {
   margin-left: 4px;
   font-size: 1rem;
   vertical-align: top;
+}
+
+.metric-card--static dt::after {
+  content: none;
 }
 
 .metric-card dd {
@@ -765,6 +789,10 @@ a {
   letter-spacing: 0.04em;
 }
 
+.about-pills span:nth-child(2) {
+  background: linear-gradient(135deg, rgba(123, 65, 255, 0.14), rgba(36, 144, 255, 0.16));
+}
+
 .result-card {
   display: grid;
   gap: 14px;
@@ -1029,8 +1057,8 @@ a {
   }
 
   .brand-logo {
-    width: auto;
-    height: 38px;
+    width: clamp(190px, 52vw, 280px);
+    height: 42px;
   }
 
   .top-nav {
@@ -1059,6 +1087,10 @@ a {
 
   .hero-prefix {
     font-size: clamp(1.48rem, 5.8vw, 1.95rem);
+  }
+
+  .hero-panel {
+    padding: 22px;
   }
 
   .hero-rotating-title span {

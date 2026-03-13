@@ -3,10 +3,10 @@ const revealItems = document.querySelectorAll(".reveal");
 const header = document.querySelector("[data-header]");
 const rotator = document.querySelector("[data-rotator]");
 const rotatingWords = [
-  "eletrodomésticos",
+  "geladeiras",
+  "micro-ondas",
   "ar-condicionado",
-  "áudio e vídeo",
-  "purificadores"
+  "equipamentos de som"
 ];
 
 let rotatingIndex = 0;

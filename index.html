@@ -20,11 +20,7 @@
     <div class="page-shell">
       <header class="site-header" data-header>
         <a href="#top" class="brand" aria-label="Pandora Tecnologia">
-          <img
-            class="brand-logo"
-            src="assets/img/pandora-logo-clean.png"
-            alt="Pandora Tecnologia"
-          />
+          <span class="brand-logo" aria-hidden="true"></span>
         </a>
 
         <nav class="top-nav" aria-label="Navegação principal">
@@ -40,35 +36,36 @@
       <main id="top">
         <section class="hero section">
           <div class="hero-copy reveal reveal--left is-visible">
-            <p class="eyebrow">CNAE 4753-9/00 | varejo especializado de eletrodomésticos e equipamentos de áudio e vídeo</p>
-            <p class="hero-prefix">A Pandora é para lojas de:</p>
-            <h1 class="hero-rotating-title" data-rotator-frame="ar-condicionado">
-              <span data-rotator>eletrodomésticos</span>
-            </h1>
-            <p class="hero-text">
-              Venda com mais agilidade, emita com segurança e acompanhe a rotina da loja
-              em um sistema online pensado para o varejo especializado.
-            </p>
+            <div class="hero-panel">
+              <p class="hero-prefix">A Pandora é para lojas de:</p>
+              <h1 class="hero-rotating-title" data-rotator-frame="equipamentos de som">
+                <span data-rotator>geladeiras</span>
+              </h1>
+              <p class="hero-text">
+                Venda com mais agilidade, emita com segurança e acompanhe a rotina da loja
+                em um sistema online pensado para o varejo especializado.
+              </p>
 
-            <div class="hero-actions">
-              <a href="#contato" class="button button--primary">Agendar apresentação</a>
-              <a href="#depoimento" class="button button--ghost">Assistir depoimento</a>
+              <div class="hero-actions">
+                <a href="#contato" class="button button--primary">Agendar apresentação</a>
+                <a href="#depoimento" class="button button--ghost">Assistir depoimento</a>
+              </div>
+
+              <dl class="hero-metrics">
+                <div class="metric-card metric-card--static">
+                  <dt>100%</dt>
+                  <dd>online para vender, emitir e acompanhar a loja de onde estiver.</dd>
+                </div>
+                <div class="metric-card metric-card--static">
+                  <dt>7 dias</dt>
+                  <dd>por semana com suporte humanizado para sua equipe.</dd>
+                </div>
+                <div class="metric-card metric-card--static">
+                  <dt>&infin;</dt>
+                  <dd>emissão infinita de notas</dd>
+                </div>
+              </dl>
             </div>
-
-            <dl class="hero-metrics">
-              <div class="metric-card">
-                <dt data-count="15">15</dt>
-                <dd>minutos para receber retorno do suporte da Pandora</dd>
-              </div>
-              <div class="metric-card">
-                <dt data-count="100">100</dt>
-                <dd>% online para vender, emitir e acompanhar a loja de onde estiver</dd>
-              </div>
-              <div class="metric-card">
-                <dt data-count="7">7</dt>
-                <dd>dias por semana com suporte humano para sua equipe</dd>
-              </div>
-            </dl>
           </div>
 
           <div class="hero-media reveal reveal--right is-visible">
@@ -96,15 +93,17 @@
         <section class="ticker" aria-label="Módulos da solução">
           <div class="ticker-track">
             <span>Emissão fiscal</span>
-            <span>PDV integrado</span>
+            <span>PDV</span>
             <span>Estoque em tempo real</span>
-            <span>Entrega e garantia</span>
+            <span>Contas a pagar</span>
+            <span>Orçamentos</span>
             <span>Suporte consultivo</span>
             <span>Relatórios gerenciais</span>
             <span>Emissão fiscal</span>
-            <span>PDV integrado</span>
+            <span>PDV</span>
             <span>Estoque em tempo real</span>
-            <span>Entrega e garantia</span>
+            <span>Contas a pagar</span>
+            <span>Orçamentos</span>
             <span>Suporte consultivo</span>
             <span>Relatórios gerenciais</span>
           </div>
@@ -114,7 +113,7 @@
           <div class="section-message reveal">
             <p class="eyebrow">Depoimento em vídeo</p>
             <div class="message-button message-button--wide" data-typed-message>
-              <span class="message-button__text">Veja como a Pandora transforma a rotina da loja.</span>
+              <span class="message-button__text">Veja como a Pandora transformou a rotina da loja do Ricardo.</span>
               <span class="message-button__cursor" aria-hidden="true"></span>
             </div>
             <p class="section-text section-text--center">
@@ -155,7 +154,7 @@
           <article class="highlight-card">
             <span class="highlight-index">01</span>
             <h3>Treinamento individual</h3>
-            <p>Implantação com orientação próxima para sua equipe começar com segurança.</p>
+            <p>Implantação ágil com orientação próxima para sua equipe começar com segurança.</p>
           </article>
           <article class="highlight-card">
             <span class="highlight-index">02</span>
@@ -259,13 +258,12 @@
                 ></iframe>
               </div>
               <div class="showcase-body">
-                <div class="about-pills" aria-hidden="true">
-                  <span>Desde 2015</span>
-                  <span>5.000+ clientes</span>
-                  <span>Suporte humano</span>
+              <div class="about-pills" aria-hidden="true">
+                  <span>Sem custo de treinamento</span>
+                  <span>Demonstração grátis</span>
                 </div>
                 <p class="card-kicker">Experiência com proximidade</p>
-                <h3>Uma empresa que une tecnologia, implantação próxima e suporte humano de verdade.</h3>
+                <h3>Uma empresa que une tecnologia, implantação ágil e suporte humano de verdade.</h3>
               </div>
             </article>
 
@@ -286,10 +284,10 @@
               </article>
               <article class="result-card">
                 <div class="result-card__top">
-                  <img class="result-card__icon-image" src="assets/img/icon-human-support.png" alt="" />
-                  <h3>Suporte 100% humano</h3>
+                  <img class="result-card__icon-image" src="assets/img/icon-multiusuario.png" alt="" />
+                  <h3>Sistema Multi-Usuário</h3>
                 </div>
-                <p>Atendimento consultivo para resolver rápido e manter sua operação em movimento.</p>
+                <p>Várias pessoas usando ao mesmo tempo, com mais agilidade no atendimento e na operação.</p>
               </article>
             </div>
           </div>
