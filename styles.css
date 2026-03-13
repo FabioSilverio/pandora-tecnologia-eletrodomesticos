@@ -311,6 +311,11 @@ a {
   content: none;
 }
 
+.metric-card--static:last-child dt {
+  font-size: 3rem;
+  line-height: 0.9;
+}
+
 .metric-card dd {
   margin: 10px 0 0;
   color: var(--ink-soft);
@@ -320,7 +325,7 @@ a {
 .hero-media {
   display: block;
   width: 100%;
-  max-width: 398px;
+  max-width: 520px;
   justify-self: end;
 }
 
@@ -340,6 +345,11 @@ a {
   overflow: hidden;
   box-shadow: var(--shadow-lg);
   animation: collageLift 9s ease-in-out infinite;
+}
+
+.hero-collage--expanded {
+  width: 100%;
+  min-height: 100%;
 }
 
 .hero-photo,
