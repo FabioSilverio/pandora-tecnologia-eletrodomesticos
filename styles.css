@@ -58,8 +58,7 @@ a {
 }
 
 .site-header {
-  position: sticky;
-  top: 18px;
+  position: relative;
   z-index: 40;
   width: var(--container);
   margin: 0 auto 28px;

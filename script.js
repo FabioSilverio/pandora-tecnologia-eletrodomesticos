@@ -1,6 +1,5 @@
 const counters = document.querySelectorAll("[data-count]");
 const revealItems = document.querySelectorAll(".reveal");
-const header = document.querySelector("[data-header]");
 const rotator = document.querySelector("[data-rotator]");
 const rotatingWords = [
   "geladeiras",
@@ -154,15 +153,3 @@ if ("IntersectionObserver" in window) {
 
   counters.forEach((counter) => counterObserver.observe(counter));
 }
-
-window.addEventListener(
-  "scroll",
-  () => {
-    if (!header) {
-      return;
-    }
-
-    header.classList.toggle("is-scrolled", window.scrollY > 10);
-  },
-  { passive: true }
-);
