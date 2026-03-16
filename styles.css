@@ -38,6 +38,10 @@ body {
     linear-gradient(180deg, #f8f7ff 0%, var(--bg) 100%);
 }
 
+body.has-modal-open {
+  overflow: hidden;
+}
+
 img {
   display: block;
   width: 100%;
@@ -335,6 +339,23 @@ a {
 .metric-card--static:last-child dt {
   font-size: 3.5rem;
   line-height: 0.9;
+}
+
+.metric-card--efficiency dt {
+  max-width: 100%;
+  font-size: 0.88rem;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.metric-card__plus {
+  display: block;
+  font-size: 2rem;
+  line-height: 0.9;
+  margin-bottom: 6px;
 }
 
 .metric-card dd {
@@ -962,6 +983,71 @@ a {
   transform: translate(0, 0);
 }
 
+.video-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.video-modal[hidden] {
+  display: none;
+}
+
+.video-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 4, 28, 0.74);
+  backdrop-filter: blur(10px);
+}
+
+.video-modal__dialog {
+  position: relative;
+  z-index: 1;
+  width: min(960px, calc(100vw - 32px));
+  padding: 24px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 24px 64px rgba(18, 1, 47, 0.32);
+}
+
+.video-modal__frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #0f0a1e;
+  aspect-ratio: 16 / 9;
+}
+
+.video-modal__frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-modal__title {
+  margin: 16px 0 0;
+  color: var(--ink-soft);
+  font-weight: 700;
+}
+
+.video-modal__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(18, 1, 47, 0.08);
+  color: var(--ink);
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
 @keyframes ticker {
   from {
     transform: translateX(0);
@@ -1226,6 +1312,16 @@ a {
 
   .proof-google-stars {
     height: 24px;
+  }
+
+  .video-modal {
+    padding: 14px;
+  }
+
+  .video-modal__dialog {
+    width: min(960px, calc(100vw - 12px));
+    padding: 18px;
+    border-radius: 22px;
   }
 }
 

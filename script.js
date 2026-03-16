@@ -1,6 +1,11 @@
 const counters = document.querySelectorAll("[data-count]");
 const revealItems = document.querySelectorAll(".reveal");
 const rotator = document.querySelector("[data-rotator]");
+const videoModal = document.querySelector("[data-video-modal]");
+const videoFrame = document.querySelector("[data-video-frame]");
+const videoTitle = document.getElementById("video-modal-title");
+const videoTriggers = document.querySelectorAll("[data-video-trigger]");
+const videoClosers = document.querySelectorAll("[data-video-close]");
 const rotatingWords = [
   "geladeiras",
   "micro-ondas",
@@ -9,6 +14,33 @@ const rotatingWords = [
 ];
 
 let rotatingIndex = 0;
+
+const openVideoModal = (source, title) => {
+  if (!videoModal || !videoFrame) {
+    return;
+  }
+
+  videoFrame.src = source;
+  videoFrame.title = title || "Video Pandora";
+  if (videoTitle) {
+    videoTitle.textContent = title || "Veja como o sistema funciona";
+  }
+
+  videoModal.hidden = false;
+  videoModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("has-modal-open");
+};
+
+const closeVideoModal = () => {
+  if (!videoModal || !videoFrame) {
+    return;
+  }
+
+  videoModal.hidden = true;
+  videoModal.setAttribute("aria-hidden", "true");
+  videoFrame.src = "";
+  document.body.classList.remove("has-modal-open");
+};
 
 const startTypedMessage = (bubble) => {
   if (!bubble || bubble.dataset.typedStarted === "true") {
@@ -71,6 +103,22 @@ if (rotator) {
     };
   }, 3200);
 }
+
+videoTriggers.forEach((trigger) => {
+  trigger.addEventListener("click", () => {
+    openVideoModal(trigger.dataset.videoSrc || "", trigger.dataset.videoTitle || "Video Pandora");
+  });
+});
+
+videoClosers.forEach((closer) => {
+  closer.addEventListener("click", closeVideoModal);
+});
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeVideoModal();
+  }
+});
 
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(

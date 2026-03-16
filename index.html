@@ -57,7 +57,15 @@
               </p>
 
               <div class="hero-actions">
-                <a href="https://youtu.be/MN6hqwwKtLE?si=5UHwuZxNase3HYjh" class="button button--primary">Veja como é o sistema</a>
+                <button
+                  type="button"
+                  class="button button--primary"
+                  data-video-trigger
+                  data-video-src="https://www.youtube-nocookie.com/embed/MN6hqwwKtLE?autoplay=1&amp;rel=0"
+                  data-video-title="Veja como e o sistema Pandora"
+                >
+                  Veja como &eacute; o sistema
+                </button>
                 <a href="#depoimento" class="button button--ghost">Assistir depoimento</a>
               </div>
 
@@ -70,9 +78,9 @@
                   <dt>7 dias</dt>
                   <dd>por semana com suporte humanizado para sua equipe.</dd>
                 </div>
-                <div class="metric-card metric-card--static">
-                  <dt>&infin;</dt>
-                  <dd>emissão infinita de notas</dd>
+                <div class="metric-card metric-card--static metric-card--efficiency">
+                  <dt><span class="metric-card__plus">+</span> Efici&ecirc;ncia</dt>
+                  <dd>emiss&atilde;o ilimitada de notas</dd>
                 </div>
               </dl>
             </div>
@@ -155,7 +163,14 @@
               <p>
                 A Pandora ajuda a reduzir atritos, acelerar o atendimento e manter o fiscal em ordem.
               </p>
-              <a href="#contato" class="button button--primary">Quero isso na minha loja</a>
+              <a
+                href="https://wa.me/554396250059?text=Ola%2C%20quero%20isso%20na%20minha%20loja."
+                class="button button--primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Quero isso na minha loja
+              </a>
             </div>
           </div>
         </section>
@@ -344,6 +359,27 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <div class="video-modal" data-video-modal hidden aria-hidden="true">
+      <div class="video-modal__backdrop" data-video-close></div>
+      <div class="video-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="video-modal-title">
+        <button type="button" class="video-modal__close" data-video-close aria-label="Fechar video">
+          &times;
+        </button>
+        <div class="video-modal__frame">
+          <iframe
+            data-video-frame
+            src=""
+            title="Video Pandora"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="video-modal__title" id="video-modal-title">Veja como o sistema funciona</p>
+      </div>
     </div>
 
     <script src="script.js"></script>
