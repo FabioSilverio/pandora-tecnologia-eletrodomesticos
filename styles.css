@@ -336,15 +336,10 @@ a {
   content: none;
 }
 
-.metric-card--static:last-child dt {
-  font-size: 3.5rem;
-  line-height: 0.9;
-}
-
-.metric-card--efficiency dt {
+.metric-card--static.metric-card--efficiency dt {
   max-width: 100%;
-  font-size: 0.62rem;
-  line-height: 1.04;
+  font-size: 0.96rem;
+  line-height: 1.02;
   letter-spacing: -0.03em;
   white-space: normal;
   overflow-wrap: anywhere;
@@ -353,13 +348,13 @@ a {
 
 .metric-card__plus {
   display: block;
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 0.9;
   margin-bottom: 4px;
 }
 
-.metric-card--efficiency dd {
-  font-size: 0.72rem;
+.metric-card--static.metric-card--efficiency dd {
+  font-size: 0.74rem;
   line-height: 1.34;
 }
 
