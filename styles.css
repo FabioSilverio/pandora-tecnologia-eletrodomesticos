@@ -343,8 +343,8 @@ a {
 
 .metric-card--efficiency dt {
   max-width: 100%;
-  font-size: 0.88rem;
-  line-height: 1.12;
+  font-size: 0.62rem;
+  line-height: 1.04;
   letter-spacing: -0.03em;
   white-space: normal;
   overflow-wrap: anywhere;
@@ -353,9 +353,14 @@ a {
 
 .metric-card__plus {
   display: block;
-  font-size: 2rem;
+  font-size: 1.15rem;
   line-height: 0.9;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
+}
+
+.metric-card--efficiency dd {
+  font-size: 0.72rem;
+  line-height: 1.34;
 }
 
 .metric-card dd {
