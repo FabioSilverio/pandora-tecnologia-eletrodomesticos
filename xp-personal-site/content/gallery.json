@@ -1,0 +1,20 @@
+[
+  {
+    "id": "studio-night",
+    "title": "Studio Night",
+    "src": "/media/gallery/studio-night.svg",
+    "description": "A fictional desk scene with blue CRT light and sticky notes everywhere."
+  },
+  {
+    "id": "interface-archive",
+    "title": "Interface Archive",
+    "src": "/media/gallery/interface-archive.svg",
+    "description": "Poster-style composition celebrating old software chrome, gradients, and icons."
+  },
+  {
+    "id": "xp-polaroid",
+    "title": "XP Polaroid",
+    "src": "/media/gallery/xp-polaroid.svg",
+    "description": "A nostalgic illustration that feels like a screenshot from a desktop memory."
+  }
+]

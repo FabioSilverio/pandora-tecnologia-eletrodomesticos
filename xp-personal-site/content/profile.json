@@ -1,0 +1,66 @@
+{
+  "name": "Fábio",
+  "role": "Designer e Designer de IA",
+  "location": "Brasil",
+  "tagline": "Crio interfaces, identidades digitais e experiencias com IA que parecem humanas, visuais e memoraveis.",
+  "shortBio": "Fabio trabalha entre direcao visual, design de produto e processos criativos assistidos por IA. Este site transforma seu portfolio em um desktop exploravel, nostalgico e cheio de personalidade.",
+  "longBio": [
+    "Gosto de projetos que tenham atmosfera, textura e intencao. Nao quero so resolver uma interface: quero que ela seja lembrada.",
+    "Meu trabalho passa por branding, UI, narrativas visuais, design de experiencias e tambem por novas formas de criar com inteligencia artificial.",
+    "Tenho um carinho enorme por softwares antigos, interfaces dos anos 2000 e tudo o que faz a tecnologia parecer mais viva, estranha e divertida."
+  ],
+  "email": "fabio@update-me.dev",
+  "website": "https://xp-personal-site.vercel.app",
+  "links": [
+    {
+      "label": "Portfolio",
+      "url": "https://xp-personal-site.vercel.app",
+      "icon": "github"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/update-me",
+      "icon": "linkedin"
+    },
+    {
+      "label": "Email Me",
+      "url": "mailto:fabio@update-me.dev",
+      "icon": "mail"
+    },
+    {
+      "label": "Behance",
+      "url": "https://behance.net/update-me",
+      "icon": "document"
+    }
+  ],
+  "favorites": [
+    {
+      "label": "About Me",
+      "page": "about"
+    },
+    {
+      "label": "Portfolio",
+      "page": "portfolio"
+    },
+    {
+      "label": "Blog",
+      "page": "blog"
+    },
+    {
+      "label": "Guestbook",
+      "page": "guestbook"
+    },
+    {
+      "label": "Contact",
+      "page": "contact"
+    }
+  ],
+  "skills": [
+    "Direcao de Arte Digital",
+    "UI Design",
+    "Brand Systems",
+    "Design com IA",
+    "Prototipacao Visual",
+    "Narrativa de Produto"
+  ]
+}

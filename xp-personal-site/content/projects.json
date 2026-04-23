@@ -1,0 +1,35 @@
+[
+  {
+    "id": "aura-lab",
+    "name": "Aura Lab",
+    "year": "2025",
+    "summary": "Um laboratorio visual para identidades, concepts e interfaces criadas com apoio de IA.",
+    "description": "Projeto autoral onde Fabio explora direcao de arte, motion, generacao visual e interfaces conceituais para marcas, campanhas e experiencias digitais.",
+    "stack": ["Next.js", "React", "TypeScript", "Vercel", "AI Tools"],
+    "url": "https://update-me.dev/aura-lab",
+    "repo": "https://github.com/update-me/aura-lab",
+    "status": "Autorais"
+  },
+  {
+    "id": "signal-brand",
+    "name": "Signal Brand System",
+    "year": "2024",
+    "summary": "Sistema visual e digital para uma marca que precisava parecer premium, clara e contemporanea.",
+    "description": "Fabio desenhou a linguagem da marca, os componentes-base e os principios de interface para garantir consistencia entre campanha, produto e presenca online.",
+    "stack": ["Figma", "Brand Design", "UI Design", "Design Systems"],
+    "url": "https://update-me.dev/signal",
+    "repo": "https://github.com/update-me/signal",
+    "status": "Case Study"
+  },
+  {
+    "id": "neural-showcase",
+    "name": "Neural Showcase",
+    "year": "2023",
+    "summary": "Uma vitrine experimental para apresentar processos criativos com IA de forma mais artistica do que tecnica.",
+    "description": "Em vez de tratar IA como gimmick, este projeto mostra processo, curadoria e sensibilidade visual. Ele influenciou diretamente a ideia deste portfolio em forma de sistema operacional.",
+    "stack": ["Creative Direction", "Prompt Design", "Visual Design", "Web"],
+    "url": "https://update-me.dev/neural-showcase",
+    "repo": "https://github.com/update-me/neural-showcase",
+    "status": "Live"
+  }
+]

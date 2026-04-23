@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bia",
+    "name": "Bia.psd",
+    "email": "sofia@contactlist.msn",
+    "status": "online",
+    "avatarColor": "#7aa7ff",
+    "headline": "camadas, grids e cafe",
+    "messages": [
+      {
+        "from": "bia",
+        "text": "Voce realmente transformou o portfolio inteiro em um sistema operacional?",
+        "time": "15:03"
+      },
+      {
+        "from": "me",
+        "text": "Eu queria que parecesse exploravel, nao so rolavel.",
+        "time": "15:04"
+      },
+      {
+        "from": "bia",
+        "text": "Abre a pasta de projetos. E o jeito mais rapido de entender teu olhar.",
+        "time": "15:04"
+      }
+    ]
+  },
+  {
+    "id": "nando",
+    "name": "nando.ai",
+    "email": "leo@contactlist.msn",
+    "status": "away",
+    "avatarColor": "#65d6b1",
+    "headline": "prompts, layouts e loops",
+    "messages": [
+      {
+        "from": "nando",
+        "text": "Testa o media player. Ele le content/music.json, entao voce pode trocar faixas depois sem mexer na interface.",
+        "time": "14:51"
+      },
+      {
+        "from": "me",
+        "text": "Era exatamente a ideia: conteudo primeiro, nostalgia por toda parte.",
+        "time": "14:52"
+      }
+    ]
+  },
+  {
+    "id": "luna",
+    "name": "Luna.gif",
+    "email": "mika@contactlist.msn",
+    "status": "busy",
+    "avatarColor": "#ff9bb0",
+    "headline": "nao cutuca sem motivo",
+    "messages": [
+      {
+        "from": "luna",
+        "text": "Tu escondeu um guestbook dentro do Internet Explorer, ne?",
+        "time": "12:22"
+      },
+      {
+        "from": "me",
+        "text": "Claro. Um bom site ainda precisa ter umas portas secretas.",
+        "time": "12:23"
+      },
+      {
+        "from": "luna",
+        "text": "*nudge* agora mostra teu About e assume que tu e designer e designer de IA.",
+        "time": "12:23"
+      }
+    ]
+  }
+]

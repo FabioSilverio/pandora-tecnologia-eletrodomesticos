@@ -1,0 +1,42 @@
+[
+  {
+    "id": "beautiful-girls",
+    "title": "Beautiful Girls",
+    "artist": "Sean Kingston",
+    "url": "/media/music/beautiful-girls-sean-kingston.mp3",
+    "cover": "/media/covers/beautiful-girls.svg",
+    "duration": "3:47",
+    "playlist": "Fabio Favorites",
+    "source": "mp3"
+  },
+  {
+    "id": "levo-comigo",
+    "title": "Levo Comigo",
+    "artist": "Restart",
+    "url": "/media/music/levo-comigo-restart.mp3",
+    "cover": "/media/covers/levo-comigo.svg",
+    "duration": "3:34",
+    "playlist": "Fabio Favorites",
+    "source": "mp3"
+  },
+  {
+    "id": "eenie-meenie",
+    "title": "Eenie Meenie",
+    "artist": "Sean Kingston ft. Justin Bieber",
+    "url": "/media/music/eenie-meenie-sean-kingston-justin-bieber.mp3",
+    "cover": "/media/covers/eenie-meenie.svg",
+    "duration": "3:17",
+    "playlist": "Fabio Favorites",
+    "source": "mp3"
+  },
+  {
+    "id": "faixa-surpresa",
+    "title": "Faixa Surpresa",
+    "artist": "Arquivo local",
+    "url": "/media/music/faixa-surpresa.mp3",
+    "cover": "/media/covers/faixa-surpresa.svg",
+    "duration": "2:22",
+    "playlist": "Downloads do Desktop",
+    "source": "mp3"
+  }
+]

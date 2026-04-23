@@ -1,0 +1,28 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="320" rx="28" fill="url(#bg)"/>
+  <rect x="26" y="26" width="268" height="268" rx="22" fill="url(#glass)" stroke="rgba(255,255,255,0.55)"/>
+  <circle cx="240" cy="92" r="38" fill="#FFEF8D" fill-opacity="0.9"/>
+  <path d="M40 214C77 160 132 133 205 133C245 133 274 143 294 160V272H40V214Z" fill="url(#ocean)"/>
+  <path d="M40 185C68 167 96 158 123 158C158 158 190 172 219 200C239 219 264 230 294 233V272H40V185Z" fill="url(#shore)"/>
+  <text x="42" y="67" fill="#F4F9FF" font-family="Trebuchet MS, Verdana, sans-serif" font-size="18" font-weight="700" letter-spacing="0.18em">FABIO RADIO</text>
+  <text x="42" y="103" fill="white" font-family="Trebuchet MS, Verdana, sans-serif" font-size="34" font-weight="700">Beautiful Girls</text>
+  <text x="42" y="132" fill="#D7EBFF" font-family="Trebuchet MS, Verdana, sans-serif" font-size="18">Sean Kingston</text>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="282" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C9FFF"/>
+      <stop offset="1" stop-color="#0C4F96"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="160" y1="26" x2="160" y2="294" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8DD8FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0E2E5A" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="ocean" x1="167" y1="133" x2="167" y2="272" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D5BC8"/>
+      <stop offset="1" stop-color="#042857"/>
+    </linearGradient>
+    <linearGradient id="shore" x1="167" y1="158" x2="167" y2="272" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7ED7FF"/>
+      <stop offset="1" stop-color="#1D77DB"/>
+    </linearGradient>
+  </defs>
+</svg>

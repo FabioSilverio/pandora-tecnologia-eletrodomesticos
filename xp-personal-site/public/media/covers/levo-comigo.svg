@@ -1,0 +1,25 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="320" rx="28" fill="url(#bg)"/>
+  <rect x="28" y="28" width="264" height="264" rx="20" fill="#FFFFFF" fill-opacity="0.12" stroke="rgba(255,255,255,0.42)"/>
+  <path d="M60 246L113 135L166 206L205 111L260 246H60Z" fill="url(#mountain)"/>
+  <path d="M72 246L126 171L170 213L209 152L248 246H72Z" fill="url(#mountain2)"/>
+  <circle cx="232" cy="86" r="28" fill="#FFF1B3"/>
+  <text x="42" y="67" fill="#EBF5FF" font-family="Trebuchet MS, Verdana, sans-serif" font-size="18" font-weight="700" letter-spacing="0.18em">XP MIX</text>
+  <text x="42" y="108" fill="white" font-family="Trebuchet MS, Verdana, sans-serif" font-size="34" font-weight="700">Levo Comigo</text>
+  <text x="42" y="137" fill="#D8EAFF" font-family="Trebuchet MS, Verdana, sans-serif" font-size="18">Restart</text>
+  <defs>
+    <linearGradient id="bg" x1="39" y1="12" x2="279" y2="319" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7CC3"/>
+      <stop offset="0.52" stop-color="#7E65FF"/>
+      <stop offset="1" stop-color="#1E3D9E"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="160" y1="111" x2="160" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE374"/>
+      <stop offset="1" stop-color="#FF7C5A"/>
+    </linearGradient>
+    <linearGradient id="mountain2" x1="160" y1="152" x2="160" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7CF"/>
+      <stop offset="1" stop-color="#FFAE6B"/>
+    </linearGradient>
+  </defs>
+</svg>

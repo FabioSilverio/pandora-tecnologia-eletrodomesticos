@@ -1,0 +1,19 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="320" rx="28" fill="url(#bg)"/>
+  <rect x="28" y="28" width="264" height="264" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="rgba(255,255,255,0.18)"/>
+  <rect x="72" y="72" width="176" height="176" rx="18" fill="#0B1729" fill-opacity="0.48" stroke="rgba(255,255,255,0.2)"/>
+  <circle cx="160" cy="160" r="58" fill="#EAF7FF"/>
+  <circle cx="160" cy="160" r="18" fill="#13284A"/>
+  <path d="M129 118H191" stroke="#0F1F36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M129 202H191" stroke="#0F1F36" stroke-width="8" stroke-linecap="round"/>
+  <text x="42" y="66" fill="#EAF7FF" font-family="Trebuchet MS, Verdana, sans-serif" font-size="18" font-weight="700" letter-spacing="0.2em">SECRET DOWNLOAD</text>
+  <text x="42" y="108" fill="white" font-family="Trebuchet MS, Verdana, sans-serif" font-size="32" font-weight="700">Faixa Surpresa</text>
+  <text x="42" y="137" fill="#D7EAFF" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16">Arquivo local</text>
+  <defs>
+    <linearGradient id="bg" x1="30" y1="18" x2="284" y2="301" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D2F6F"/>
+      <stop offset="0.5" stop-color="#204D9F"/>
+      <stop offset="1" stop-color="#6BA4FF"/>
+    </linearGradient>
+  </defs>
+</svg>
