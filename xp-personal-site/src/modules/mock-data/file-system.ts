@@ -88,8 +88,8 @@ export interface MockFileSystem {
 
 export function buildMockFileSystem(content: SiteContent): MockFileSystem {
   const aboutText = [
-    `${content.profile.name}`,
-    `${content.profile.role} from ${content.profile.location}`,
+    `Oi, aqui e o ${content.profile.name}.`,
+    `${content.profile.role} no ${content.profile.location}.`,
     "",
     content.profile.shortBio,
     "",
@@ -155,6 +155,18 @@ export function buildMockFileSystem(content: SiteContent): MockFileSystem {
       urlFile("Contact.url", "/Desktop/Contact.url", "contact"),
     ]),
     folder("My Documents", "/My Documents", [
+      textFile(
+        "Oi, aqui e o Fabio.txt",
+        "/My Documents/Oi, aqui e o Fabio.txt",
+        [
+          `Oi, aqui e o ${content.profile.name}.`,
+          "",
+          "Este desktop e meu portfolio pessoal em formato de Windows XP navegavel.",
+          "Pode abrir os arquivos, explorar os projetos, testar o Internet Explorer e ouvir minhas musicas no Windows Media Player.",
+          "",
+          content.profile.shortBio,
+        ].join("\n"),
+      ),
       textFile("Read Me First.txt", "/My Documents/Read Me First.txt", aboutText),
       textFile("Contact.txt", "/My Documents/Contact.txt", contactText),
     ]),

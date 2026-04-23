@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { SiteContent } from "@/types/content";
 import { playUiSound } from "@/modules/audio/ui-sounds";
@@ -48,6 +48,7 @@ export function DesktopShell({ content }: DesktopShellProps) {
   );
   const [powerMessage, setPowerMessage] = useState("Windows is shutting down...");
   const [screensaverVisible, setScreensaverVisible] = useState(false);
+  const welcomeExplorerOpenedRef = useRef(false);
 
   useEffect(() => {
     const updateWorkArea = () => {
@@ -171,6 +172,16 @@ export function DesktopShell({ content }: DesktopShellProps) {
     void playUiSound("open", manager.preferences.soundEnabled);
   };
 
+  useEffect(() => {
+    if (sessionState !== "desktop" || welcomeExplorerOpenedRef.current || manager.windows.length > 0) {
+      return;
+    }
+
+    welcomeExplorerOpenedRef.current = true;
+    manager.setLastOpenedFolder("/My Documents");
+    manager.openWindow("explorer", { path: "/My Documents" }, { title: "My Documents" });
+  }, [manager, sessionState]);
+
   const openPage = (page: FavoritePage) => {
     manager.openWindow("internet-explorer", { page }, { title: `Internet Explorer - ${page}` });
     void playUiSound("open", manager.preferences.soundEnabled);
@@ -269,7 +280,7 @@ export function DesktopShell({ content }: DesktopShellProps) {
       />
 
       {sessionState === "desktop"
-        ? manager.visibleWindows.map((windowItem) => {
+        ? manager.windows.map((windowItem) => {
         const active = focusedWindowId === windowItem.id;
 
         return (

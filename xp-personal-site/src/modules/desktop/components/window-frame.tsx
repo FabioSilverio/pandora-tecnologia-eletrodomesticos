@@ -139,8 +139,11 @@ export function WindowFrame({
         top: bounds.y,
         width: bounds.width,
         height: bounds.height,
+        visibility: windowItem.isMinimized ? "hidden" : "visible",
+        pointerEvents: windowItem.isMinimized ? "none" : "auto",
         zIndex: windowItem.zIndex,
       }}
+      aria-hidden={windowItem.isMinimized}
       onMouseDown={() => onFocus(windowItem.id)}
     >
       <div
