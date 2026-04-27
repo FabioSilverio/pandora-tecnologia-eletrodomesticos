@@ -1,0 +1,4112 @@
+{
+  "checkedAt": "2026-04-27T15:02:55.211Z",
+  "source": "google-news-rss-fallback",
+  "trends": [
+    {
+      "race": "president",
+      "date": "2026-04-27",
+      "candidate": "Lula",
+      "value": 63
+    },
+    {
+      "race": "president",
+      "date": "2026-04-24",
+      "candidate": "Lula",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-04-26",
+      "candidate": "Lula",
+      "value": 17
+    },
+    {
+      "race": "president",
+      "date": "2026-04-22",
+      "candidate": "Lula",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-25",
+      "candidate": "Lula",
+      "value": 13
+    },
+    {
+      "race": "president",
+      "date": "2026-04-23",
+      "candidate": "Lula",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-11",
+      "candidate": "Lula",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-26",
+      "candidate": "Flavio Bolsonaro",
+      "value": 7
+    },
+    {
+      "race": "president",
+      "date": "2026-04-27",
+      "candidate": "Flavio Bolsonaro",
+      "value": 62
+    },
+    {
+      "race": "president",
+      "date": "2026-04-25",
+      "candidate": "Flavio Bolsonaro",
+      "value": 9
+    },
+    {
+      "race": "president",
+      "date": "2026-04-24",
+      "candidate": "Flavio Bolsonaro",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-04-15",
+      "candidate": "Flavio Bolsonaro",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-04-11",
+      "candidate": "Flavio Bolsonaro",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-03-07",
+      "candidate": "Flavio Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-16",
+      "candidate": "Flavio Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-20",
+      "candidate": "Flavio Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-18",
+      "candidate": "Flavio Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-17",
+      "candidate": "Flavio Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-19",
+      "candidate": "Flavio Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-08",
+      "candidate": "Flavio Bolsonaro",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-04-02",
+      "candidate": "Flavio Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-14",
+      "candidate": "Flavio Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-27",
+      "candidate": "Tarcisio de Freitas",
+      "value": 8
+    },
+    {
+      "race": "president",
+      "date": "2026-04-23",
+      "candidate": "Tarcisio de Freitas",
+      "value": 5
+    },
+    {
+      "race": "president",
+      "date": "2026-04-26",
+      "candidate": "Tarcisio de Freitas",
+      "value": 8
+    },
+    {
+      "race": "president",
+      "date": "2026-04-25",
+      "candidate": "Tarcisio de Freitas",
+      "value": 7
+    },
+    {
+      "race": "president",
+      "date": "2026-04-24",
+      "candidate": "Tarcisio de Freitas",
+      "value": 11
+    },
+    {
+      "race": "president",
+      "date": "2026-04-16",
+      "candidate": "Tarcisio de Freitas",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-04-17",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-07",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-14",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-22",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-12",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-06",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-31",
+      "candidate": "Tarcisio de Freitas",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-04-10",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-04",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-01",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-30",
+      "candidate": "Tarcisio de Freitas",
+      "value": 5
+    },
+    {
+      "race": "president",
+      "date": "2026-01-29",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-02-11",
+      "candidate": "Tarcisio de Freitas",
+      "value": 5
+    },
+    {
+      "race": "president",
+      "date": "2026-03-08",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-20",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-01-15",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-22",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-23",
+      "candidate": "Tarcisio de Freitas",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-01-14",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-02-27",
+      "candidate": "Tarcisio de Freitas",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-03-10",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-09",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-11",
+      "candidate": "Tarcisio de Freitas",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-02-25",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-16",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-12-10",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-12-17",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-12-16",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-28",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-23",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-02-02",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-23",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-25",
+      "candidate": "Jair Bolsonaro",
+      "value": 6
+    },
+    {
+      "race": "president",
+      "date": "2026-04-11",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-01",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-04",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-12-29",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-08",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-25",
+      "candidate": "Jair Bolsonaro",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-04-03",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-07",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-30",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-14",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-02",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-14",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-26",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-12",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-02-25",
+      "candidate": "Jair Bolsonaro",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-03-11",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2025-12-05",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2025-12-08",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-02-27",
+      "candidate": "Jair Bolsonaro",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2025-12-16",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-02-13",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-12-06",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-02-09",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-29",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-01-21",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-02-18",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-02-12",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-02-08",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-16",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-12-25",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-17",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-23",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-19",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-11-26",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-18",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-13",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-24",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-10",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-12-26",
+      "candidate": "Jair Bolsonaro",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-03-05",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-15",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2025-12-11",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2025-12-10",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-16",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2025-12-15",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-02-04",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-02-16",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-11-13",
+      "candidate": "Jair Bolsonaro",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-01-02",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-11-25",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-01-06",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-11-14",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-02-21",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-12-04",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-09-11",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-09-30",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-10-24",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-10-23",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-09-07",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2018-10-28",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-09-09",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-07-21",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-08-27",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-09-05",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2025-09-01",
+      "candidate": "Jair Bolsonaro",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-27",
+      "candidate": "Ronaldo Caiado",
+      "value": 14
+    },
+    {
+      "race": "president",
+      "date": "2026-04-07",
+      "candidate": "Ronaldo Caiado",
+      "value": 10
+    },
+    {
+      "race": "president",
+      "date": "2026-04-06",
+      "candidate": "Ronaldo Caiado",
+      "value": 5
+    },
+    {
+      "race": "president",
+      "date": "2026-04-15",
+      "candidate": "Ronaldo Caiado",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-25",
+      "candidate": "Ronaldo Caiado",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-08",
+      "candidate": "Ronaldo Caiado",
+      "value": 7
+    },
+    {
+      "race": "president",
+      "date": "2026-04-24",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-13",
+      "candidate": "Ronaldo Caiado",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-04-11",
+      "candidate": "Ronaldo Caiado",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-04-19",
+      "candidate": "Ronaldo Caiado",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-26",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-30",
+      "candidate": "Ronaldo Caiado",
+      "value": 21
+    },
+    {
+      "race": "president",
+      "date": "2026-04-22",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-04",
+      "candidate": "Ronaldo Caiado",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-03-31",
+      "candidate": "Ronaldo Caiado",
+      "value": 6
+    },
+    {
+      "race": "president",
+      "date": "2026-04-01",
+      "candidate": "Ronaldo Caiado",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-04-05",
+      "candidate": "Ronaldo Caiado",
+      "value": 2
+    },
+    {
+      "race": "president",
+      "date": "2026-04-09",
+      "candidate": "Ronaldo Caiado",
+      "value": 4
+    },
+    {
+      "race": "president",
+      "date": "2026-04-12",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-02",
+      "candidate": "Ronaldo Caiado",
+      "value": 3
+    },
+    {
+      "race": "president",
+      "date": "2026-03-18",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-28",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-04-23",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-09",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "president",
+      "date": "2026-03-25",
+      "candidate": "Ronaldo Caiado",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-27",
+      "candidate": "Tarcisio de Freitas",
+      "value": 8
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-23",
+      "candidate": "Tarcisio de Freitas",
+      "value": 5
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-26",
+      "candidate": "Tarcisio de Freitas",
+      "value": 8
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-25",
+      "candidate": "Tarcisio de Freitas",
+      "value": 7
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-24",
+      "candidate": "Tarcisio de Freitas",
+      "value": 11
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-16",
+      "candidate": "Tarcisio de Freitas",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-17",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-07",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-14",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-22",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-12",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-06",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-31",
+      "candidate": "Tarcisio de Freitas",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-10",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-04",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-01",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-30",
+      "candidate": "Tarcisio de Freitas",
+      "value": 5
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-29",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-11",
+      "candidate": "Tarcisio de Freitas",
+      "value": 5
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-08",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-20",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-15",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-22",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-23",
+      "candidate": "Tarcisio de Freitas",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-14",
+      "candidate": "Tarcisio de Freitas",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-27",
+      "candidate": "Tarcisio de Freitas",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-10",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-09",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-11",
+      "candidate": "Tarcisio de Freitas",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-25",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-16",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-10",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-17",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-16",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-28",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-23",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-02",
+      "candidate": "Tarcisio de Freitas",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-26",
+      "candidate": "Fernando Haddad",
+      "value": 10
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-23",
+      "candidate": "Fernando Haddad",
+      "value": 6
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-22",
+      "candidate": "Fernando Haddad",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-01",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-02",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-24",
+      "candidate": "Fernando Haddad",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-04",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-06",
+      "candidate": "Fernando Haddad",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-31",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-03",
+      "candidate": "Fernando Haddad",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-09",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-27",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-16",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-05",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-30",
+      "candidate": "Fernando Haddad",
+      "value": 5
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-20",
+      "candidate": "Fernando Haddad",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-19",
+      "candidate": "Fernando Haddad",
+      "value": 10
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-08",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-10",
+      "candidate": "Fernando Haddad",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-09",
+      "candidate": "Fernando Haddad",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-25",
+      "candidate": "Fernando Haddad",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-03",
+      "candidate": "Fernando Haddad",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-22",
+      "candidate": "Fernando Haddad",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-19",
+      "candidate": "Fernando Haddad",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-12",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-07",
+      "candidate": "Fernando Haddad",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-10",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-27",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-25",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-16",
+      "candidate": "Fernando Haddad",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-22",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-13",
+      "candidate": "Fernando Haddad",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-26",
+      "candidate": "Fernando Haddad",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-21",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-11",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-24",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-03",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-28",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-25",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-27",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-23",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-21",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-29",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-26",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-16",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-04",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-30",
+      "candidate": "Fernando Haddad",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-22",
+      "candidate": "Guilherme Boulos",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-09",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-23",
+      "candidate": "Guilherme Boulos",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-23",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-27",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-28",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-19",
+      "candidate": "Guilherme Boulos",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-02",
+      "candidate": "Guilherme Boulos",
+      "value": 6
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-08",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-20",
+      "candidate": "Guilherme Boulos",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-07",
+      "candidate": "Guilherme Boulos",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-21",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-18",
+      "candidate": "Guilherme Boulos",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-17",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-24",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-09",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-19",
+      "candidate": "Guilherme Boulos",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-15",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-10",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-03",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-20",
+      "candidate": "Guilherme Boulos",
+      "value": 17
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-30",
+      "candidate": "Guilherme Boulos",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-21",
+      "candidate": "Guilherme Boulos",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-22",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-27",
+      "candidate": "Guilherme Boulos",
+      "value": 7
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-09-25",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-06-05",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-09-24",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-23",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-05-16",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-07",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-29",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-09-23",
+      "candidate": "Guilherme Boulos",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-06",
+      "candidate": "Guilherme Boulos",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-30",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-11-30",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-28",
+      "candidate": "Guilherme Boulos",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-07-29",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-09-05",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-08-03",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-08-27",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-31",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-08-02",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2022-10-03",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-03-06",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-17",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-07-05",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-26",
+      "candidate": "Guilherme Boulos",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-08-21",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-18",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-09-30",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-09-19",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-08-15",
+      "candidate": "Guilherme Boulos",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-23",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-04",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-24",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-10",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-09",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-03",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-24",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-19",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-26",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-16",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-09",
+      "candidate": "Kim Kataguiri",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-22",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-07",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-16",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-15",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-30",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-30",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-28",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-11",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-02",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-08",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-23",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-25",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-06",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-06",
+      "candidate": "Kim Kataguiri",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-04",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-07",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-07",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-01",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-03",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-14",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-31",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-28",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-02-28",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-20",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-08-02",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2021-02-01",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-04-24",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-08-01",
+      "candidate": "Kim Kataguiri",
+      "value": 8
+    },
+    {
+      "race": "governor-sp",
+      "date": "2022-04-27",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2022-10-03",
+      "candidate": "Kim Kataguiri",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-07-17",
+      "candidate": "Kim Kataguiri",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-02-12",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2018-10-07",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2023-04-14",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-09-16",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-09-20",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-08-03",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2023-10-26",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-22",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-02-14",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-11",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-08-28",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-21",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-06-07",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2023-10-25",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2023-07-04",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2020-11-10",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-02-01",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-04-04",
+      "candidate": "Kim Kataguiri",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2023-04-01",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-03-17",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-01-17",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2019-01-17",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-08",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-06-24",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2023-07-03",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2019-01-09",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-02-25",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-04-13",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2023-12-27",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-03-21",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2019-01-23",
+      "candidate": "Kim Kataguiri",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-26",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-25",
+      "candidate": "Paulo Serra",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-23",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-22",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-12",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-14",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-10",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-10",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-30",
+      "candidate": "Paulo Serra",
+      "value": 8
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-19",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-04-16",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-04",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-16",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-09",
+      "candidate": "Paulo Serra",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-12",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-08",
+      "candidate": "Paulo Serra",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-03",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-11",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-03",
+      "candidate": "Paulo Serra",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-28",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-06",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-03-13",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-06",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-10",
+      "candidate": "Paulo Serra",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-02",
+      "candidate": "Paulo Serra",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-11",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-27",
+      "candidate": "Paulo Serra",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-01-14",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-26",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-29",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2026-02-19",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-12-05",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-22",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-17",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-11-03",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-14",
+      "candidate": "Paulo Serra",
+      "value": 5
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-07-10",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-12",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-04-05",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-16",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-10-06",
+      "candidate": "Paulo Serra",
+      "value": 4
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-06-27",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-08-26",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-08-24",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-04-12",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-05-06",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-09-18",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-08-30",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-08-22",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-09-12",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-05-07",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-07-09",
+      "candidate": "Paulo Serra",
+      "value": 3
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-10-17",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-04-09",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-06-28",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2024-03-13",
+      "candidate": "Paulo Serra",
+      "value": 2
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-02-25",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-sp",
+      "date": "2025-04-08",
+      "candidate": "Paulo Serra",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-27",
+      "candidate": "Sergio Moro",
+      "value": 37
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-26",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-02",
+      "candidate": "Sergio Moro",
+      "value": 12
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-13",
+      "candidate": "Sergio Moro",
+      "value": 6
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-07",
+      "candidate": "Sergio Moro",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-25",
+      "candidate": "Sergio Moro",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-12",
+      "candidate": "Sergio Moro",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-24",
+      "candidate": "Sergio Moro",
+      "value": 9
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-06",
+      "candidate": "Sergio Moro",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-19",
+      "candidate": "Sergio Moro",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-10",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-23",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-22",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-15",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-23",
+      "candidate": "Sergio Moro",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-28",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-18",
+      "candidate": "Sergio Moro",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-25",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-08",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-09",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-27",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-26",
+      "candidate": "Sergio Moro",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-09",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-05",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-15",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-25",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-20",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-23",
+      "candidate": "Sergio Moro",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-27",
+      "candidate": "Requiao Filho",
+      "value": 14
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-07",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-31",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-02",
+      "candidate": "Requiao Filho",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-10",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-12",
+      "candidate": "Requiao Filho",
+      "value": 5
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-30",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-03",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-24",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-19",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-27",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-26",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-23",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-18",
+      "candidate": "Requiao Filho",
+      "value": 5
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-01",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-22",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-25",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-20",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-04",
+      "candidate": "Requiao Filho",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-14",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-13",
+      "candidate": "Requiao Filho",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-06",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-19",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-19",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-21",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-07",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-06",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-05",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-15",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-09-05",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-07-21",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-10-17",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-07-08",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-07-03",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-22",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-10-01",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-26",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-06-04",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-30",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-07-18",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-10-23",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-05-09",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-07-17",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-10-14",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-16",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-10-07",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2022-10-03",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-25",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-09-02",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-04-20",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-06-19",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-07-07",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-05-26",
+      "candidate": "Requiao Filho",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-31",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-10-20",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-04-16",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-10-13",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-09-04",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-06-14",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-06-05",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-13",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-05-06",
+      "candidate": "Requiao Filho",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-27",
+      "candidate": "Rafael Greca",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-16",
+      "candidate": "Rafael Greca",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-22",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-22",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-02",
+      "candidate": "Rafael Greca",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-14",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-19",
+      "candidate": "Rafael Greca",
+      "value": 7
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-06",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-10",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-20",
+      "candidate": "Rafael Greca",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-31",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-12",
+      "candidate": "Rafael Greca",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-24",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-11",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-30",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-23",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-01",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-31",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-15",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-11",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-19",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-13",
+      "candidate": "Rafael Greca",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-06",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-09-02",
+      "candidate": "Rafael Greca",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-08-12",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2023-03-20",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-11-15",
+      "candidate": "Rafael Greca",
+      "value": 7
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-26",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-07-17",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-14",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2021-01-01",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-09-04",
+      "candidate": "Rafael Greca",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-22",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-02-27",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-04-10",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-10-30",
+      "candidate": "Rafael Greca",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2019-12-15",
+      "candidate": "Rafael Greca",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-07-08",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-04-23",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-11-15",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-07-29",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2023-10-05",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-08-07",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-10-31",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2022-05-25",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-08-23",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2022-08-24",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-10-28",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2022-06-26",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-11-28",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-02-07",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-07-20",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-03-22",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-06-13",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2023-03-14",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2021-08-21",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-08-13",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-04-17",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-09-19",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-11-14",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-09-15",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-10-25",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-10-15",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-09-23",
+      "candidate": "Rafael Greca",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-09-27",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-09-21",
+      "candidate": "Rafael Greca",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-10-02",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2016-09-12",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2024-12-18",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2021-08-24",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2020-10-29",
+      "candidate": "Rafael Greca",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-14",
+      "candidate": "Alexandre Curi",
+      "value": 12
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-27",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-02",
+      "candidate": "Alexandre Curi",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-24",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-11",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-06",
+      "candidate": "Alexandre Curi",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-01",
+      "candidate": "Alexandre Curi",
+      "value": 10
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-15",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-03",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-13",
+      "candidate": "Alexandre Curi",
+      "value": 6
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-31",
+      "candidate": "Alexandre Curi",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-07",
+      "candidate": "Alexandre Curi",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-10",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-04",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-27",
+      "candidate": "Alexandre Curi",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-12",
+      "candidate": "Alexandre Curi",
+      "value": 11
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-20",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-23",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-11",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-09",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-26",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-24",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-12",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-23",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-02",
+      "candidate": "Alexandre Curi",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-19",
+      "candidate": "Alexandre Curi",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-18",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-23",
+      "candidate": "Alexandre Curi",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-30",
+      "candidate": "Alexandre Curi",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-22",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-23",
+      "candidate": "Alexandre Curi",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-10",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-09",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-12",
+      "candidate": "Alexandre Curi",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-14",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-10",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-29",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-02",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-18",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-08",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-06",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-24",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-13",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-06",
+      "candidate": "Alexandre Curi",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-10-31",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-02",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-09-02",
+      "candidate": "Alexandre Curi",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-17",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-10",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-07",
+      "candidate": "Guto Silva",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-16",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-13",
+      "candidate": "Guto Silva",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-02",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-01",
+      "candidate": "Guto Silva",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-19",
+      "candidate": "Guto Silva",
+      "value": 9
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-20",
+      "candidate": "Guto Silva",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-25",
+      "candidate": "Guto Silva",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-12",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-30",
+      "candidate": "Guto Silva",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-25",
+      "candidate": "Guto Silva",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-02",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-13",
+      "candidate": "Guto Silva",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-26",
+      "candidate": "Guto Silva",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-12",
+      "candidate": "Guto Silva",
+      "value": 5
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-04-08",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-29",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-27",
+      "candidate": "Guto Silva",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-31",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-27",
+      "candidate": "Guto Silva",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-24",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-23",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-11",
+      "candidate": "Guto Silva",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-06",
+      "candidate": "Guto Silva",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-30",
+      "candidate": "Guto Silva",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-16",
+      "candidate": "Guto Silva",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-11",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-01",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-17",
+      "candidate": "Guto Silva",
+      "value": 2
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-11-27",
+      "candidate": "Guto Silva",
+      "value": 4
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-04",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-03",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-15",
+      "candidate": "Guto Silva",
+      "value": 3
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-12",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-09",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-13",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-22",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-16",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-14",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-18",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-12",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-26",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-16",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-01",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-09",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-14",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-09",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-03",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-03-10",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-01-07",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-10",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2026-02-04",
+      "candidate": "Guto Silva",
+      "value": 1
+    },
+    {
+      "race": "governor-pr",
+      "date": "2025-12-20",
+      "candidate": "Guto Silva",
+      "value": 1
+    }
+  ],
+  "errors": [
+    {
+      "race": "president",
+      "message": "429 unknown /trends/api/widgetdata/multiline cookie=yes"
+    },
+    {
+      "race": "governor-sp",
+      "message": "429 unknown /trends/api/widgetdata/multiline cookie=yes"
+    },
+    {
+      "race": "governor-pr",
+      "message": "429 unknown /trends/api/widgetdata/multiline cookie=yes"
+    }
+  ]
+}

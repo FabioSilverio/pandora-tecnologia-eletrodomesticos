@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radar Eleitoral Brasil</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Brasil 2026 / polls, enquetes e interesse de busca</p>
+          <h1>Radar Eleitoral</h1>
+        </div>
+        <div class="topbar-actions">
+          <button class="icon-button" id="refreshFeeds" type="button" title="Buscar novidades" aria-label="Buscar novidades">RE</button>
+          <button class="icon-button" id="exportCsv" type="button" title="Exportar CSV" aria-label="Exportar CSV">DL</button>
+          <label class="icon-button" title="Importar CSV" aria-label="Importar CSV">
+            UL
+            <input id="importCsv" type="file" accept=".csv,text/csv" />
+          </label>
+        </div>
+      </header>
+
+      <main>
+        <section class="tabs" aria-label="Disputas">
+          <button class="tab active" data-race="president" type="button">Presidente</button>
+          <button class="tab" data-race="governor-sp" type="button">Governo SP</button>
+          <button class="tab" data-race="governor-pr" type="button">Governo PR</button>
+        </section>
+
+        <section class="control-band" aria-label="Filtros">
+          <div class="control-group">
+            <span>Cenario</span>
+            <select id="scenarioSelect"></select>
+          </div>
+          <div class="control-group">
+            <span>Institutos</span>
+            <div class="check-grid" id="pollsterFilters"></div>
+          </div>
+          <div class="control-group compact">
+            <span>Visualizacao</span>
+            <div class="segmented" role="group" aria-label="Tipo de linha">
+              <button class="segment active" id="rawMode" type="button">Pontos</button>
+              <button class="segment" id="averageMode" type="button">Media</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="metrics-row" aria-label="Resumo">
+          <article class="metric-card">
+            <span>Ultima pesquisa</span>
+            <strong id="latestPollTitle">-</strong>
+            <p id="latestPollMeta">-</p>
+          </article>
+          <article class="metric-card">
+            <span>Lider no cenario</span>
+            <strong id="topCandidate">-</strong>
+            <p id="topCandidateMeta">-</p>
+          </article>
+          <article class="metric-card">
+            <span>Radar diario</span>
+            <strong id="feedCount">-</strong>
+            <p id="feedMeta">-</p>
+          </article>
+          <article class="metric-card">
+            <span>Busca Google</span>
+            <strong id="searchLeader">-</strong>
+            <p id="searchMeta">-</p>
+          </article>
+        </section>
+
+        <section class="chart-layout">
+          <article class="chart-panel wide">
+            <div class="panel-head">
+              <div>
+                <h2>Evolucao das pesquisas</h2>
+                <p>Linhas interativas por candidato; passe o mouse nos pontos para ver fonte e data.</p>
+              </div>
+              <div class="legend" id="trendLegend"></div>
+            </div>
+            <div class="chart-wrap tall">
+              <svg id="trendChart" role="img" aria-label="Evolucao das pesquisas eleitorais"></svg>
+            </div>
+          </article>
+
+          <article class="chart-panel">
+            <div class="panel-head">
+              <div>
+                <h2>Retrato mais recente</h2>
+                <p>Comparacao do ultimo recorte disponivel.</p>
+              </div>
+            </div>
+            <div class="chart-wrap">
+              <svg id="latestChart" role="img" aria-label="Ultimos numeros por candidato"></svg>
+            </div>
+          </article>
+        </section>
+
+        <section class="workspace-grid">
+          <article class="chart-panel">
+            <div class="panel-head">
+              <div>
+                <h2>Simulador</h2>
+                <p>Aplique swing, redistribua indecisos e teste impulso de campanha.</p>
+              </div>
+            </div>
+            <div class="sim-controls">
+              <label>Vento governista/oposicao <input id="swingSlider" type="range" min="-8" max="8" step="0.5" value="0" /></label>
+              <label>Indecisos para lider <input id="undecidedSlider" type="range" min="0" max="100" step="5" value="35" /></label>
+              <label>Candidato impulsionado <select id="boostCandidate"></select></label>
+              <label>Impulso <input id="boostSlider" type="range" min="0" max="8" step="0.5" value="0" /></label>
+            </div>
+            <div class="chart-wrap short">
+              <svg id="simulationChart" role="img" aria-label="Simulacao eleitoral"></svg>
+            </div>
+          </article>
+
+          <article class="chart-panel">
+            <div class="panel-head">
+              <div>
+                <h2>Popularity tracker</h2>
+                <p>Importa Google Trends quando existir; usa mencoes em noticias como proxy automatico.</p>
+              </div>
+              <label class="mini-upload">CSV Trends<input id="importTrends" type="file" accept=".csv,text/csv" /></label>
+            </div>
+            <div class="chart-wrap short">
+              <svg id="interestChart" role="img" aria-label="Interesse de busca e noticias"></svg>
+            </div>
+          </article>
+        </section>
+
+        <section class="workspace-grid">
+          <article class="table-panel">
+            <div class="panel-head">
+              <div>
+                <h2>Novidades encontradas hoje</h2>
+                <p>Radar automatico procura termos de pesquisas; revise antes de adicionar ao ledger.</p>
+              </div>
+              <a class="text-link" id="googleTrendsLink" target="_blank" rel="noreferrer">Abrir Trends</a>
+            </div>
+            <div class="feed-list" id="feedList"></div>
+          </article>
+
+          <article class="table-panel">
+            <div class="panel-head">
+              <div>
+                <h2>Ledger de pesquisas</h2>
+                <p>Base editavel; exporte CSV para manter historico.</p>
+              </div>
+              <button class="text-button" id="addRow" type="button">Adicionar</button>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Data</th>
+                    <th>Disputa</th>
+                    <th>Instituto</th>
+                    <th>Cenario</th>
+                    <th>Candidato</th>
+                    <th>%</th>
+                    <th>Amostra</th>
+                    <th>Fonte</th>
+                  </tr>
+                </thead>
+                <tbody id="pollTable"></tbody>
+              </table>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <div class="tooltip" id="tooltip" role="status"></div>
+
+    <dialog id="pollDialog">
+      <form method="dialog" id="pollForm">
+        <div class="dialog-head">
+          <h2>Adicionar pesquisa</h2>
+          <button class="icon-button small" value="cancel" type="submit" aria-label="Fechar">x</button>
+        </div>
+        <div class="form-grid">
+          <label>Disputa
+            <select name="race">
+              <option value="president">Presidente</option>
+              <option value="governor-sp">Governo SP</option>
+              <option value="governor-pr">Governo PR</option>
+            </select>
+          </label>
+          <label>Data final <input name="endDate" type="date" required /></label>
+          <label>Instituto <input name="pollster" required placeholder="Quaest" /></label>
+          <label>Cenario <input name="scenario" required placeholder="1o turno - principal" /></label>
+          <label>Turno
+            <select name="round">
+              <option value="first">1o turno</option>
+              <option value="runoff">2o turno</option>
+            </select>
+          </label>
+          <label>Candidato <input name="candidate" required placeholder="Lula" /></label>
+          <label>Valor (%) <input name="value" type="number" min="0" max="100" step="0.1" required /></label>
+          <label>Amostra <input name="sample" type="number" min="0" placeholder="2004" /></label>
+          <label>Margem <input name="margin" type="number" min="0" step="0.1" placeholder="2" /></label>
+          <label class="wide">Fonte <input name="source" type="url" placeholder="https://..." /></label>
+        </div>
+        <div class="dialog-actions">
+          <button class="text-button ghost" value="cancel" type="submit">Cancelar</button>
+          <button class="text-button" value="default" type="submit">Salvar</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>
